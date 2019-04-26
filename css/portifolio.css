@@ -1,0 +1,16 @@
+
+/*deixa as caixinhas lado a lado, formando linhas, e com isso consigo controlar o padding e a margem entre elas*/
+.portfolio li {
+   border: 8px solid black;
+   display: inline-block;
+   background-color: #FAFFFC;
+   box-sizing: border-box;
+   width: 45%;
+   padding: 16px;
+   margin-right: 16px;
+   margin-bottom: 16px;
+}
+
+.portfolio img {
+   width: 100%;
+}
