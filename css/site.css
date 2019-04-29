@@ -9,17 +9,22 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+h1 {
+	text-transform: uppercase;
+	font-size: 60px;
+}
+
 .titulo-principal {
+	font-size:300%;
 	text-align: center;
 	background-color: #851944;
 	color: #FFF;
-	padding: 25px;
-	border-bottom: 10px solid black;
-	font-size: 60px;
-	text-transform: uppercase;
+	/*padding: 25px;*/
+	padding: 1.25rem;
+	border-bottom: .5rem solid black;
 }
 
-p {
+main p {
 	text-align: justify;
 	margin: 20px 0;   
 }
@@ -29,6 +34,7 @@ p {
 	text-align: center;
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+	padding: 20px;
 }
 
 
@@ -40,6 +46,8 @@ p {
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
 }  
  
 main a {
@@ -49,6 +57,7 @@ main a {
 .navegacao-site a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
+	text-transform: lowercase;
 } 
 
 .citacao-bio, .navegacao-site, .rodape-pagina {
@@ -57,7 +66,8 @@ main a {
 
 .container {
 	width: 720px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 30px 0;
 }
 
@@ -96,15 +106,15 @@ nav a {
 }
 
 .github {
-	background-image: url(img/github.png);
+	background-image: url(../img/github.png);
 }
 
 .twitter {
-	background-image: url(img/twitter.png);
+	background-image: url(../img/twitter.png);
 }
 
 .linkedin {
-	background-image: url(img/linkedin.png);
+	background-image: url(../img/linkedin.png);
 }
 
 main {
@@ -124,7 +134,8 @@ main {
 .minha-foto {
 	position: absolute;
 	top:0px;
-   right:0px;
+	right:0px;
+
 }
 
 
@@ -133,8 +144,6 @@ main {
 	position: relative;
 	top: 310px;
 }
-
-
 
 
 
