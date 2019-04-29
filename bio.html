@@ -1,77 +1,93 @@
 <!DOCTYPE html>
 
 <html>
-   <head>
-      <meta charset="utf-8">
-      <title>Biography - João da Silva</title>
-      <link rel="icon" href="favicon.png">
-      <link rel="stylesheet" href="reset.css">
-      <link rel="stylesheet" href="bio.css"><!--the browser will overwrite the file rest.css by the file bio.css-->
-   </head>
+
+<head>
+   <meta charset="utf-8">
+   <title>Biography - João da Silva</title>
+   <link rel="icon" href="img/favicon.png">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/site.css">
+   <link rel="stylesheet" href="css/bio.css">
+   <!--the browser will overwrite the file rest.css by the file bio.css-->
+   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+</head>
 
 <body>
    <main>
-      <h1>About me</h1>
+      <h1 class="titulo-principal">About me</h1>
 
-      <p>I live in São Paulo but I serve clients from all over the world. I am known for making quality products, durability and
-         which add value to my clients..</p>
-      <p>I work using a web as a platform, I breathe HTML5, CSS3 and JavaScript (or rather: ECMASCript). Cryo
-         sites for all, following as main guidelines of accessibility, responsiveness and semantic web, without
-         to neglect code quality..</p>
+      <div class="container">
+         <p>I live in São Paulo but I serve clients from all over the world. I am known for making quality products,
+            durability and
+            which add value to my clients..</p>
+         <p>I work using a web as a platform, I breathe HTML5, CSS3 and JavaScript (or rather: ECMASCript). Cryo
+            sites for all, following as main guidelines of accessibility, responsiveness and semantic web, without
+            to neglect code quality..</p>
 
-      <h2>How work</h2>
+         <h2 class="subtitulo-texto">How work</h2>
 
-      <blockquote class="fiat">
-         <p>is the best front-end developer I have ever worked with. Very efficient and very capable. I recommend without a doubt!</p>   
-         <cite>José Souza, Fiat </cite>
-      </blockquote>
+         <blockquote class="citacao-bio fiat">
+            <p>is the best front-end developer I have ever worked with. Very efficient and very capable. I recommend
+               without a doubt!</p>
+            <cite>José Souza, Fiat </cite>
+         </blockquote>
 
-      <p>Satisfying my clients is priority. For this, a highly interactive development process,
-         Based on continuous feedback. Do not work with closed scope: the customer decides when the product is
-         ready.</p>
+         <p>Satisfying my clients is priority. For this, a highly interactive development process,
+            Based on continuous feedback. Do not work with closed scope: the customer decides when the product is
+            ready.</p>
 
-      <p>I also don´t work with deadlines: quality is too important to be sacrificed.</p>
+         <p>I also don´t work with deadlines: quality is too important to be sacrificed.</p>
 
-      <h2>Experience</h2>
+         <h2 class="subtitulo-texto">Experience</h2>
 
-      <blockquote class="petrobras">
-         <p>João dominates technologies like nobody else. I had a problem, he had the tip of his tongue the most appropriate solution with the latest technologies.</p>
-         <cite>Manoel Santos, Petrobrás</cite>
-      </blockquote>
+         <blockquote class="citacao-bio petrobras">
+            <p>João dominates technologies like nobody else. I had a problem, he had the tip of his tongue the most
+               appropriate solution with the latest technologies.</p>
+            <cite>Manoel Santos, Petrobrás</cite>
+         </blockquote>
 
 
-      <p>I have already developed projects for big companies like <a href="http://www.bmw.com">BMW</a>, <a href="http://www.uol.com.br">UOL</a>and <a href="http://www.ibm.com.br">IBM</a>. In them, the main focus was to deliver a
-         experience immersive and impactful to the end user without neglecting the performance and accessibility of the page.
-      </p>
-      <p>They have also been contracted for the transmission of large portals, such as Terra and G1, in responsive pages.
-         Went Responsible for renewing the layout, reorganizing the content and rewriting the code in a more reusable way.</p>
+         <p>I have already developed projects for big companies like <a href="http://www.bmw.com">BMW</a>, <a
+               href="http://www.uol.com.br">UOL</a>and <a href="http://www.ibm.com.br">IBM</a>. In them, the main focus
+            was to deliver a
+            experience immersive and impactful to the end user without neglecting the performance and accessibility of
+            the page.
+         </p>
+         <p>They have also been contracted for the transmission of large portals, such as Terra and G1, in responsive
+            pages.
+            Went Responsible for renewing the layout, reorganizing the content and rewriting the code in a more reusable
+            way.</p>
 
-      <h2>Community</h2>
+         <h2 class="subtitulo-texto">Community</h2>
 
-      <p>I try to pass on my knowledge to the community. For this, I have given several lectures and I maintain a <a href="blog.html">blog</a>.
+         <p>I try to pass on my knowledge to the community. For this, I have given several lectures and I maintain a <a
+               href="blog.html">blog</a>.
+      </div>
    </main>
-   <img class="minha-foto" src="eu.jpg" alt="photo of João da Silva">
+   <img class="minha-foto" src="img/eu.jpg" alt="photo of João da Silva">
+   <aside class="navegacao-site">
 
-   <aside>
+      <h1>João da Silva</h1>
       <nav>
-         <h1>João da Silva</h1>
          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portifolio</a></li>
+            <li><a href="bio.html">Home</a></li>
+            <li><a href="portifolio.html">Portifolio</a></li>
             <li><a href="#">About Me</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="blog.html">Blog</a></li>
             <li><a href="#">Contact</a></li>
+         </ul>
+      </nav>
+      <ul class="icones-redes-sociais">
+         <li><a href="http://github.com/joaodasilva" class="github">Github</a></li>
+         <li><a href="http://twitter.com/joaodasilva" class="twitter">Twitter</a></li>
+         <li><a href="http://linkedin.com/joaodasilva" class="linkedin">Linkedin</a></li>
       </ul>
-   </nav>
-      <ul class="icones-sociais">
-         <li><a class="github" href="http://github.com/joaodasilva">Github</a></li>
-         <li><a class="twitter" href="http://twitter.com/joaodasilva">Twitter</a></li>
-         <li><a class="linkedin" href="http://linkedin.com/joaodasilva">Linkedin</a></li>
-      </ul>
- </aside>
+   </aside>
 
-<footer>
-   &copy; João da Silva 2019
-</footer>
-   </body>
+   <footer class="rodape-pagina">
+      &copy; João da Silva 2019
+   </footer>
+</body>
 <html>
