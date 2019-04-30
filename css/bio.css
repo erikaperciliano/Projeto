@@ -1,17 +1,11 @@
 .citacao-bio {
-	background-color: #D9E5E3;
-	border: 5em solid #C2CCCA;
-	width: 30ch;
-	box-sizing: border-box;
-	margin: 1em 2em;
+	 background-color: #D9E5E3;
+    border: .5em solid #C2CCCA;
+    padding: 1em;
+    margin: 1em 2em;
+    width: 30ch;
+    box-sizing: border-box;
 }
-
-
-cite {
-	font-style: italic;
-	float: right;
-}
-
 
 .fiat {
 	float: right;
