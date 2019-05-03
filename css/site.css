@@ -38,6 +38,14 @@ main a {
 	color: #851944;
 }
 
+/*acrescimo*/
+main a:hover,
+main a:focus,
+footer a:hover,
+footer a:focus {
+    color: red;
+}
+
 main p {
 	text-align: justify;
 	margin: 1em 0;
