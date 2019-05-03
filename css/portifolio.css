@@ -13,4 +13,5 @@
 
 .portfolio img {
    width: 100%;
+   box-shadow: 0 0 4px #000;/*acréscimo*/
 }
